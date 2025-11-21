@@ -8,12 +8,12 @@ This project was born to answer this need: to create a mini neural inference eng
 
 🎯 Objective of the project?  
 Build a Neural Network Inference Engine in pure C that is:  
--modular and lightweight;  
--able to run inference on real-world inputs (e.g., sensor data);  
--designed to load model weights from external files (planned for next iteration);  
--supports Dense, ReLU, Sigmoid, Softmax layers;  
--requires no external libraries or dependencies;  
--portable, optimizable, easy to understand and deploy on embedded systems  
+* modular and lightweight;  
+* able to run inference on real-world inputs (e.g., sensor data);  
+* designed to load model weights from external files (planned for next iteration);  
+* supports Dense, ReLU, Sigmoid, Softmax layers;  
+* requires no external libraries or dependencies;  
+* portable, optimizable, easy to understand and deploy on embedded systems  
 
 🧩 What does this engine do?  
 Using just a few kilobytes of memory:  
@@ -22,27 +22,27 @@ Using just a few kilobytes of memory:
 3. Returns a prediction or classification;  
 
 🚀 Areas of use  
--IoT: gesture, motion, and presence recognition, ecc.;  
--Wearable: fall detection, fitness tracking, posture, ecc.;  
--Medical: vital signs analysis, patient monitoring, ecc.;  
--Industrial: predictive sensors, preventive maintenance, ecc.;  
--Robotics: obstacle detection, motor control, ecc.;  
--Home automation;  
+* IoT: gesture, motion, and presence recognition, ecc.;  
+* Wearable: fall detection, fitness tracking, posture, ecc.;  
+* Medical: vital signs analysis, patient monitoring, ecc.;  
+* Industrial: predictive sensors, preventive maintenance, ecc.;  
+* Robotics: obstacle detection, motor control, ecc.;  
+* Home automation;  
 
 🛠️ How can it be implemented?  
-- on ARM / RISC-V microcontrollers;  
-- on STM32, ESP32, Arduino boards;  
-- integrated with Python for training predictive models;  
+* on ARM / RISC-V microcontrollers;  
+* on STM32, ESP32, Arduino boards;  
+* integrated with Python for training predictive models;  
 
-🔄 Current Status  
-- Neural inference engine fully working;  
-- XOR model implemented via hardcoded weights;  
-- Modular architecture ready for expansion;  
+🔄 Current Status:  
+* Neural inference engine fully working;  
+* XOR model implemented via hardcoded weights;  
+* Modular architecture ready for expansion;  
   
-🔭 Next Steps (Roadmap)  
-- Load model weights from JSON / binary file;  
-- Python utility script to export trained models;  
-- Quantization (float32 → int8) for low-power devices;  
-- Benchmark and profiling tools;  
-- Deployment on STM32 / ESP32 boards;  
+🔭 Next Steps (Roadmap):  
+* Load model weights from JSON / binary file;  
+* Python utility script to export trained models;  
+* Quantization (float32 → int8) for low-power devices;  
+* Benchmark and profiling tools;  
+* Deployment on STM32 / ESP32 boards;  
 
